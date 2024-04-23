@@ -1,0 +1,81 @@
+body{
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.836);
+    margin: 50px auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(70, 70, 70);
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+h1,h2{
+    color: rgb(255, 255, 255);
+}
+
+button{
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgb(0, 0, 0);
+    transition: .7s all ease;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.39);;
+}
+
+form{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgba(63, 63, 63, 0.932);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.postItem{
+    background-color: rgba(63, 63, 63, 0.856);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 12px black;
+}
+
+.editForm{
+    display: none;
+    margin-top: 10px;
+}
